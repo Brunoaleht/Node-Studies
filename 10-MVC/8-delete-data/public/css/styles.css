@@ -1,0 +1,123 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/*nave bar*/
+#navBar {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #db4c3c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navBar ul {
+  display: flex;
+  list-style: none;
+  margin: 3px;
+}
+#navBar ul li {
+  margin-left: 1rem;
+}
+#navBar ul li a:link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+#navBar ul li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+#navBar ul li a:hover {
+  color: #333;
+}
+#navBar ul li a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 450px;
+  margin: 2rem auto;
+}
+.container form{
+  margin-top: 1.5rem;
+}
+/*Create Task Page*/
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.form-control input,
+.form-control textarea {
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+form input[type="submit"]{
+  background-color: #db4c3c;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.7rem 1.5rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.bold {
+  font-weight: bold;
+}
+
+/*All Tasks Page*/
+.task-list { 
+  list-style: none;
+  margin-top: 1rem;
+}
+.task-list li{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.task-list .title{
+  font-weight: bold;
+  color: #db4c3c;
+  transition: 0.5;
+  font-size: 1.2rem;
+}
+.task-list .title:hover{
+  color: #333;
+}
+
+.actions {
+  display: flex;
+}
+.actions i {
+  font-size: 1.2rem;
+  margin-right: 0.6rem;
+  color: #333;
+}
+.actions i:hover{
+  color: #db4c3c;
+}
+.actions form{
+  margin: 0;
+}
+.actions button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+<h1>Minha Home Usando Handlebars</h1>
+<p>testando mandar dados do back para a view no front as "" simboliza q o dado
+  vem do backend</p>
+<p>O usuário logado se chama: "{{user.firstName}}
+  {{user.lastName}}", e ele tem "{{user.age}}" anos
+</p>
+{{#if auth}}
+  <p>Você está autenticado <a href="/dashboard">Click Aqui</a> para ir a area de membros</p>
+{{/if}}
+
+<h2>"{{titulo2}}"</h2>

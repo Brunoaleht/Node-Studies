@@ -1,0 +1,18 @@
+<h1>Products</h1>
+<div class="products">
+  {{#each products}}
+    <div class="product">
+      <img src="{{this.image}}" alt="{{this.name}}" />
+      <div class="content-info">
+        <div>
+          <h3 class="title">{{this.name}}</h3>
+          <p class="description">{{this.description}}</p>
+          <div class="actions">
+            <a href="/products/{{this._id}}">Detalhes</a>
+          </div>
+        </div>
+        <p class="price">R${{this.price}},00</p>
+      </div>
+    </div>
+  {{/each}}
+</div>

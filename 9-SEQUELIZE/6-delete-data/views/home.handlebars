@@ -1,0 +1,17 @@
+<h1>Usuários Cadastrados</h1>
+<div class="container">
+  <ul class="listUsers">
+    {{#each users}}
+      <li>
+        <h2>{{this.name}}</h2>
+        <p>{{this.occupation}}</p>
+        <div class="actions">
+          <a href="/users/{{this.id}}" class="details-btn">More Detalhes</a>
+          <form action="/users/delete/{{this.id}}" method="post">
+            <input type="submit" value="Delete" class="delete-btn" />
+          </form>
+        </div>
+      </li>
+    {{/each}}
+  </ul>
+</div>

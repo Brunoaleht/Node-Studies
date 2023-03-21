@@ -1,0 +1,9 @@
+body {
+  color: red;
+  background-color: whitesmoke;
+  padding: 2rem;
+  text-align: center;
+}
+span {
+  font-weight: bolder;
+}

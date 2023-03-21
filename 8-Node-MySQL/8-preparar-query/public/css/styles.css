@@ -1,0 +1,104 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+
+/*nave bar*/
+#navBar {
+  border-bottom: 1px solid #ccc;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+}
+#navBar ul {
+  display: flex;
+  list-style: none;
+  margin: 3px;
+}
+#navBar ul li {
+  margin-left: 1rem;
+}
+#navBar ul li a:link {
+  color: black;
+  text-decoration: none;
+}
+#navBar ul li a:visited {
+  color: black;
+  text-decoration: none;
+}
+#navBar ul li a:hover {
+  text-decoration: underline;
+}
+#navBar ul li a:active {
+  color: black;
+  text-decoration: none;
+}
+
+/*Home Page*/
+.form,
+.books-container {
+  width: 450px;
+  margin: 0 auto;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.form-control input {
+  padding: 5px;
+}
+
+/*Books page*/
+.books-container ul {
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.books-container ul li{
+  border-bottom: 1px solid #666;
+  padding: 5px;
+  margin: 5px;
+}
+
+.books-container ul li a:link {
+  color: black;
+  text-decoration: none;
+}
+.books-container ul li a:visited {
+  color: black;
+  text-decoration: none;
+}
+.books-container ul li a:hover {
+  text-decoration: underline;
+}
+#navBar ul li a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*Book*/
+#book-page{
+  padding: 2rem;
+}
+#book-page .container{
+  text-align: center;
+}
+.actions{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.actions a{
+  margin-right: 1rem;
+}
